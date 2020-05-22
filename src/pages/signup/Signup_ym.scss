@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+}
+
+.login-wrapper {
+    display : flex;
+    height: 730px;
+    background-color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    .login-box {
+        display: flex;
+        width: 350px;
+        height: auto;
+        background-color: #fafafa;
+        justify-content: center;
+        flex-direction: column;
+        .box1 {
+            display: flex;
+            width: 348px;
+            height: auto;
+            background-color: #ffffff;
+            margin : 19.95px auto;
+            flex-wrap: wrap;
+            border: 1px solid #dbdbdb;
+
+            .box1_logo {
+                width: 348px;
+                height: 51px;
+                background-color: #ffffff;
+                margin: 22px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .instaLogo {
+                    width: 175px;
+                    height: 51px;
+                }
+            }
+            .box1_form {
+                width: 348px;
+                height: auto;
+                background-color: #ffffff;
+                margin-top: -22px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .invitation {
+                    width: auto;
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: #8e8e8e;
+                    text-align: center;
+                    margin: 0 40px 10px;
+                }
+                .facebookbutt {
+                    background-color: #0095f6;
+                    width: 268px;
+                    height: 29.6px;
+                    margin: 8px 40px;
+                    border: 1px solid #0095f6;
+                    color: #ffffff;
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    font-size: 14px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                .input {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    input{
+                        width: 268px;
+                        height: 38px;
+                        background-color: #fafafa;
+                        font-size: 12px;
+                        border-radius: 5px;
+                        border: 1px solid #fafafa;
+                        color: #8e8e8e;
+                        margin: 0px 40px 6px;
+                        padding: 9px 0px 7px 8px;
+                        outline: none;
+                    }
+                    .email {
+                        margin: 24px 40px 6px;
+                        padding: 9px 0px 7px 8px;
+                    }
+                    /*
+                    .password{
+                        margin: 0px 40px 6px;
+                        padding: 9px 0px 7px 8px;
+                    }
+                    */
+                    .button {
+                        width: 268px;
+                        height: 29.6px;
+                        background-color:#B2DFFC;
+                        margin: 8px 40px;
+                        border: 1px solid #b2dffc;
+                        color: #ffffff;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        font-size: 14px;
+                        border-radius: 4px;
+                       
+                    }
+                    .active {
+                        background-color: blue;
+                        cursor: pointer;
+                        border: 1px solid blue;
+                    }
+                    .inactive {
+                        background-color:#b2dffc;
+                    }
+                }
+                .or {
+                    width: 268px;
+                    height: 14.4px;
+                    background-color: #ffffff;
+                    margin: 10px 40px 18px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 13px;
+                    color: #8e8e8e;
+                    hr {
+                        border: 0.2px solid #8e8e8e;
+                        width: 100px;
+                    }   
+                }
+                .facebook {
+                    width: 268px;
+                    height: 19.2px;
+                    background-color: #ffffff;
+                    border: 1px solid #ffffff;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #385185;
+                    font-weight: bold;
+                    font-family: sans-serif;
+                }
+                .forpass {
+                    width: 268px;
+                    height: auto;
+                    background-color: #ffffff;
+                    margin: 10px 40px;
+                    text-align: center;
+                    color: #8e8e8e;
+                    font-size: 11px;
+                    font-weight: lighter;
+                }
+            }
+        }
+        .box2 {
+            width: 348px;
+            height: 70px;
+            margin: 0 0 1opx;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: #8e8e8e;
+            border: 1px solid #dbdbdb;
+
+            .join {
+                text-align: center;
+                margin: 14px;
+                color: #828282;
+                .box2Join {
+                    color: #0095f6;
+                }
+            }
+            
+           
+        }
+    }
+}
+/*
+.login-box {
+    display: flex;
+    width: 350px;
+    height: 505.2px;
+    background-color: #fafafa;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1 {
+    display: flex;
+    width: 348px;
+    height: 377.8px;
+    background-color: #ffffff;
+    margin : 19.95px auto;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff;
+}
+
+.box1_logo {
+    width: 348px;
+    height: 51px;
+    background-color: #ffffff;
+    margin: 22px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 175px;
+    height: 51px;
+}
+
+.box1_form {
+    width: 348px;
+    height: 260.8px;
+    background-color: #ffffff;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 268px;
+    height: 38px;
+    background-color: #fafafa;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #fafafa;
+    color: #8e8e8e;
+}
+
+.id {
+    margin: 24px 40px 6px;
+    padding: 9px 0px 7px 8px;
+}
+
+.password{
+    margin: 0px 40px 6px;
+    padding: 9px 0px 7px 8px;
+}
+
+.button {
+    width: 268px;
+    height: 29.6px;
+    background-color:#B2DFFC;
+    margin: 8px 40px;
+    border: 1px solid #b2dffc;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.or {
+    width: 268px;
+    height: 14.4px;
+    background-color: #ffffff;
+    margin: 10px 40px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #8e8e8e;
+}
+
+hr {
+    border: 0.2px solid #8e8e8e;
+    width: 100px;
+}
+
+.facebook {
+    width: 268px;
+    height: 19.2px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    color: #385185;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.forpass {
+    width: 268px;
+    height: 13.6px;
+    background-color: #ffffff;
+    margin: 12px 0px 0px;
+    text-align: center;
+    color: #00376b;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.box2 {
+    width: 348px;
+    height: 62.6px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.join {
+    text-align: center;
+    margin: 15px;
+    color: #262626
+}
+
+span {
+    color: #0095f6;
+    font-weight: bold;
+}
+*/

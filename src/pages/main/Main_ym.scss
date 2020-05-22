@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+/*
+body {
+    background-color: #ffffff;
+}
+
+.wrap {
+    background-color: #ffffff;
+    display: flex;
+
+}
+*/
+
+.unite {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    .right {
+        margin-left: 100px;
+    }
+}
+
+/*
+.right {
+    margin-left: 100px;
+}
+*/
